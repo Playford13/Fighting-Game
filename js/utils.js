@@ -32,7 +32,6 @@ function decreaseTimer() {
   }
 
   if (timer === 0) {
-    document.querySelector("#displayText").style.display = "flex";
     determineWinner({ player, enemy, timerId });
   }
 }
